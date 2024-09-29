@@ -71,6 +71,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
     
     func requestInfo(flowerName: String) {
+        // https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exintro=&explaintext=&titles=barberton%20daisy&indexpageids&redirects=1 - This is a sample api url
         let parameters: [String: String] = [
             "format": "json",
             "action": "query",
